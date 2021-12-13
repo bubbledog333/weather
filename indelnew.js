@@ -92,7 +92,7 @@ function formatDate(date) {
   iconElement.setAttribute("alt", response.data.weather[0].description);
 
 
-let farenheitLink = document.querySelector("#temperature")
+let farenheitLink = document.querySelector("#farenheit-link")
 farenheitLink.addEventListener("click", tempLink)
  function tempLink (event){
    event.preventDefault 
