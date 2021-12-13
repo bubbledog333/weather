@@ -35,7 +35,10 @@ function formatDate(date) {
     );
     document.querySelector("#description").innerHTML =
       response.data.weather[0].main;
-  }
+  
+  let icon = document.querySelector(img) 
+icon.innerHTML = `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+}
   
   function searchCity(city) {
     let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
