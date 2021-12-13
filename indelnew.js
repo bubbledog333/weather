@@ -92,3 +92,10 @@ function formatDate(date) {
   iconElement.setAttribute("alt", response.data.weather[0].description);
 
 
+let farenheitLink = document.querySelector("#temperature")
+farenheitLink.addEventListener("click", tempLink)
+ function tempLink (event){
+   event.preventDefault 
+   let farenheitTemp = (14 *  9 )/ 5 + 32
+   alert(farenheitTemp);
+ }
