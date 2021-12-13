@@ -36,9 +36,9 @@ function formatDate(date) {
     document.querySelector("#description").innerHTML =
       response.data.weather[0].main;
   
-  let icon = document.querySelector(float-left) ;
-icon.setAttribute ("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
-icon.setAttribute("alt",response.data.weather[0].description);
+  let iconElement = document.querySelector(float-left) ;
+iconElement.setAttribute ("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
+iconElement.setAttribute("alt",response.data.weather[0].description);
 }
   
   function searchCity(city) {
