@@ -34,7 +34,7 @@ body {
     max-width: 700px;
   }
   .weather-app:hover {
-    background-color: rgba(201, 240, 243, 0.384);
+    border-color: rgba(201, 240, 243, 0.384);
   }
   .weather-icon {
     height: 64px;
@@ -60,7 +60,9 @@ body {
   .search-form {
     margin-bottom: 20px;
   }
-
+  #city-input:hover {
+  border-color: #660066;
+  }
   .btn {
     background-color: #1b25a7e0;
     border-radius: 16px;
