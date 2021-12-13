@@ -70,7 +70,7 @@ body {
     background-color: #1b25a7e0;
     border-radius: 16px;
     border-color: #0c0336e0;
-    cursor-color: blue;
+    cursor: blue;
   }
   .bg-light {
     border-radius: 10px;
