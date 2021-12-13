@@ -92,5 +92,4 @@ function formatDate(date) {
   function showFarenheit (event) {
 event.preventDefault();
 let farenheitTemp = (14 * 9 ) / 5 + 32;
-let temperatureElement = document.querySelector("#temperature")
-  temperatureElement.innerHTML = farenheitTemp; }
+alert(farenheitTemp) }
