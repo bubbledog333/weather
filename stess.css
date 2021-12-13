@@ -3,11 +3,11 @@ body {
   }
   
   h1 {
-    color: #7c7c7c;
+    color: #5b20fc;
     font-size: 24px;
     font-weight: 100;
     line-height: 28px;
-    margin: 0;
+    margin-bottom: 0;
   }
   
   ul {
@@ -82,5 +82,4 @@ body {
     border-radius: 16px;
     border-color: #2f5207e0;
   }
-  
   
