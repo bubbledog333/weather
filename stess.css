@@ -63,7 +63,8 @@ body {
   #city-input {
   border-color: #660066;
   cursor: vertical-text;
-  color: #05173d07;
+  background-color: #05173d07;
+  color: #05173d;
   }
   .btn {
     background-color: #1b25a7e0;
