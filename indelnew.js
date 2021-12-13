@@ -85,3 +85,12 @@ function formatDate(date) {
   
   searchCity("New York");
   
+  let farenheit = document.querySelector(#farenheit-link);
+  farenheit.addEventListener("click" , showFarenheit)
+
+
+  function showFarenheit (event) {
+event.preventDefault();
+let farenheitTemp = (14 * 9 ) / 5 + 32;
+let temperatureElement = document.querySelector("#temperature")
+  temperatureElement.innerHTML = farenheitTemp; }
