@@ -1,5 +1,5 @@
 body {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   
   h1 {
@@ -16,7 +16,7 @@ body {
   }
   
   li {
-    color: #96a366;
+    color: #660066;
     font-size: 23px;
     font-weight: 600;
     height: 19px;
@@ -25,7 +25,7 @@ body {
   }
   
   .weather-app {
-    border: 1px solid #55814f;
+    border: 2px groove #1f2d7e , #5a4f81;
     padding: 15px;
     margin: 20px auto;
     border-radius: 10px;
@@ -68,9 +68,9 @@ body {
   }
   .bg-light {
     border-radius: 10px;
-    background-color: #8b9436e8;
-    text-shadow: #96a366;
-    border-color: #193d05;
+    background-color: #943655e8;
+    text-shadow: #6667a3;
+    border-color: #05173d;
   }
   #humidity {
     font-size: 34px;
@@ -78,8 +78,8 @@ body {
     margin: 10px;
   }
   .btn:hover {
-    background-color: #193d05;
-    border-radius: 16px;
-    border-color: #2f5207e0;
+    background-color: #19053d;
+    border-radius: 19px;
+    border-color: #0c0752e0;
   }
   
