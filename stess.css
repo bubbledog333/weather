@@ -32,17 +32,17 @@ body {
     max-width: 700px;
   }
   .weather-app:hover {
-    background-color: rgba(243, 239, 201, 0.384);
+    background-color: rgba(201, 240, 243, 0.384);
   }
   .weather-icon {
     height: 64px;
-    color: rgba(99, 91, 25, 0.808);
+    color: rgba(32, 25, 99, 0.808);
     width: 69px;
     margin-right: 10px;
   }
   
   .temperature {
-    color: rgba(99, 91, 25, 0.808);
+    color: rgba(41, 25, 99, 0.808);
     font-size: 100px;
     font-weight: bold;
     line-height: 2.6;
@@ -59,12 +59,12 @@ body {
     margin-bottom: 20px;
   }
   #city-input:hover {
-    background-color: #fafad2be;
+    background-color: #d2f5fa8a;
   }
   .btn {
-    background-color: #477c0be0;
+    background-color: #1b25a7e0;
     border-radius: 16px;
-    border-color: #2f5207e0;
+    border-color: #0c0336e0;
   }
   .bg-light {
     border-radius: 10px;
