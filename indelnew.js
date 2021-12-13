@@ -95,7 +95,9 @@ function formatDate(date) {
 let farenheitLink = document.querySelector("#farenheit-link")
 farenheitLink.addEventListener("click", tempLink)
  function tempLink (event){
-   event.preventDefault 
+   event.preventDefault()
    let farenheitTemp = (14 *  9 )/ 5 + 32
-   alert(farenheitTemp);
+ let tempF = document.querySelector("#temperature");
+   
+   tempF.innerHTML  = farenheitTemp;
  }
