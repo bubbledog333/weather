@@ -60,9 +60,7 @@ body {
   .search-form {
     margin-bottom: 20px;
   }
-  #city-input:hover {
-    background-color: #d2f5fa8a;
-  }
+
   .btn {
     background-color: #1b25a7e0;
     border-radius: 16px;
